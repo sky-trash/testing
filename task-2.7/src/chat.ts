@@ -12,7 +12,7 @@ export class User {
   status: UserStatus;
   lastSeen: Date;
   avatar: string | null;
-  contacts: number[]; // ID контактов
+  contacts: number[];
 
   constructor(id: number, username: string, email: string) {
     if (!username || username.trim().length === 0) {
